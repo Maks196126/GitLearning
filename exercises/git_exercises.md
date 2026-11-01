@@ -228,7 +228,7 @@ after an accidental branch movement; it is not a backup for uncommitted work.
 
 ## 9. Connect your GitHub account and push
 
-Follow [GitHub setup](github_setup.md) to create the empty private repository,
+Follow [GitHub setup](github_setup.md) to create the empty public repository,
 authenticate through the browser, add `origin`, and push main.
 
 ```sh

@@ -117,7 +117,8 @@ you want an application-only build.
 
 Begin with [the exercises](exercises/git_exercises.md), then follow
 [GitHub setup](exercises/github_setup.md) for account `Maks196126`.
-The intended repository is a new private `GitLearning` repository.
+The repository is [Maks196126/GitLearning](https://github.com/Maks196126/GitLearning).
+It is public, as requested by the project owner.
 
 The prepared working folder may already contain a local Git repository and an
 initial commit; check `git status` and `git log --oneline` first. A downloaded

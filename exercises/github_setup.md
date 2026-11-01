@@ -1,8 +1,10 @@
 # Connect GitLearning to GitHub
 
 Account: `Maks196126` ([profile](https://github.com/Maks196126)).
-Target: a **new private** repository named `GitLearning`.
-The URL below is the intended destination, not proof that the repository already exists.
+Target: a **public** repository named `GitLearning`.
+The repository is [Maks196126/GitLearning](https://github.com/Maks196126/GitLearning).
+If it already contains this starter project, skip creation and the initial push;
+use this guide as a reference for another new repository.
 
 ## 1. Check the local project
 
@@ -22,7 +24,7 @@ account used for authentication are separate settings.
 ## 2. Create the empty repository
 
 Sign in as `Maks196126`, then open [Create a new repository](https://github.com/new).
-Choose owner `Maks196126`, name `GitLearning`, and **Private**. Leave README,
+Choose owner `Maks196126`, name `GitLearning`, and **Public**. Leave README,
 `.gitignore`, and license initialization unchecked: these files already exist
 locally. Create the repository. If GitHub says the name is already taken, stop
 and inspect that repository rather than overwriting or force-pushing anything.
@@ -63,7 +65,7 @@ Verify the returned login is `Maks196126`. Then, only if the target repository
 does not already exist and `origin` is absent:
 
 ```sh
-gh repo create Maks196126/GitLearning --private --source=. --remote=origin --push
+gh repo create Maks196126/GitLearning --public --source=. --remote=origin --push
 ```
 
 ## 4. Verify the connection
@@ -78,5 +80,5 @@ git rev-parse HEAD
 
 The remote `main` hash and local HEAD should match immediately after the push.
 Open `https://github.com/Maks196126/GitLearning` while signed in and confirm the
-Private label, source files, README, and commit history. Continue with the pull
-request exercise. A private repository is visible only to authorized accounts.
+Public label, source files, README, and commit history. Continue with the pull
+request exercise. Anyone can read a public repository; writing still requires authorization.
